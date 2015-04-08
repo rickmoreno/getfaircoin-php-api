@@ -1,0 +1,19 @@
+{
+  "name": "rickmoreno/getfaircoin-api",
+  "description": "An GetFaircoin.net API integration for PHP",
+  "authors": [
+    {
+      "name": "Rick Moreno",
+      "email": "cto@chip-chap.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "GetFaircoin": "src/"
+    }
+  }
+}
